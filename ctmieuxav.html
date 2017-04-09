@@ -9,7 +9,7 @@
         <meta name="author" content="C'était Mieux Avant">
 
         <title>C'était Mieux Avant</title>
-        <!--<link rel="shortcut icon" href="images/Logo-Black.png" type="image/png"/>-->
+        <link rel="shortcut icon" href="images/logos/ctmieuxav-logo-dark.svg" type="image/svg"/>
 
         <!-- CSS -->
         <!-- Bootstrap -->
@@ -18,12 +18,6 @@
         <!-- Personnalisée(s) -->
         <link href="css/stylesheet.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <!-- JavaScript
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        
-        <script src="js/navbar.js"></script>
-        <script src="js/scroll.js"></script>
-        <script src="js/img.js"></script>-->
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -34,85 +28,33 @@
     </head>
     
     <body>
-        <div class="banner" style="background-image: url('images/backgrounds/woodstock.jpg');">
-        <!--<div class="banner">-->    
-            <div class="banner-inner row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 middle">
-                    <img class="img-responsive" src="images/logo.png"/>
-                </div>
-                <div class="col-xs-12 col-sm-8 middle">
-                    <div class="row">
-                        <!--<div class="col-xs-4 middle">
-                            <img class="station-icon" src="images/icons/rss.svg"/>
-                        </div>
-                        <div class="col-xs-4 middle">
-                            <img class="station-icon" src="images/icons/soundcloud.svg"/>
-                        </div>
-                        <div class="col-xs-4 middle">
-                            <img class="img-responsive" src="images/icons/itunes.svg"/>
-                        </div>-->
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <h2>Le <span>podcast</span> qui vous fera réaliser à
-                                quel point la nostalgie biaise notre perception
-                                de la réalité.</h2>
-                        </div>
-                        <div class="col-xs-10 col-xs-offset-1"
-                            <p>En tant que membres de la génération Y, nous
-                                sommes de ces nostalgiques, d'une époque que
-                                nous n'avons pas connu. Ce podcast est
-                                l'occasion de revenir sur des sujets qui nous
-                                interessent, et de réaliser que parfois
-                                il fait bon de vivre dans le présent.</p>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="logo-container col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 col-md-3 vcenter">
+                <img class="img-responsive" src="images/logos/ctmieuxav-logo-dark.svg" alt="Le logo du podcast C'était Mieux Avant"/>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-7 vcenter">
+                <h1>Le podcast qui confronte la réalité à la nostalgie</h1>
+                <hr align="left"/>
+                <p>En tant que membres de la génération Y, nous
+                    sommes de ces nostalgiques, d'une époque que
+                    nous n'avons pas connu. Ce podcast est
+                    l'occasion de revenir sur des sujets qui nous
+                    interessent, et de réaliser que parfois
+                    il fait bon de vivre dans le présent.</p>
+                <div>
+                    <a target="_blank" href="https://soundcloud.com/user-556995839"><img class="icon" src="images/icons/soundcloud.svg" /></a>
+                    <a href="#"><img class="icon" src="images/icons/rss.svg"/></a>
+                    <a target="_blank" href="https://facebook.com/ctmieuxav"><img class="icon" src="images/icons/facebook.svg"/></a>
+                    <a target="_blank" href="https://twitter.com/ctmieuxav"><img class="icon" src="images/icons/twitter.svg"/></a>
                 </div>
             </div>
         </div>
         <div class="preview-container">
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/rap.jpg');">
-                        <div class="info-container">
-                            <p class="info">49 min</p>
-                            <div>
-                                <p class="info music rounded-border">MUSIQUE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 3 : Le Rap</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/rock.jpg');">
-                        <div class="info-container">
-                            <p class="info">61 min</p>
-                            <div>
-                                <p class="info music rounded-border">MUSIQUE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 2 : Le Rock</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/election.jpg');">
-                        <div class="info-container">
-                            <p class="info">42 min</p>
-                            <div>
-                                <p class="info politics rounded-border">POLITIQUE</p>
-                                <p class="info society rounded-border">SOCIÉTÉ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 1 : Les Élections</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
+            <div class="col-xs-12 col-sm-6 col-md-4 preview-container">
+               <a target="_blank" href="ctmieuxav/season-1/S1-E00-La_television"> 
+                <div class="preview" id="television">
                     <div class="thumbnail-container" style="background-image: url('images/thumbnails/tv.jpg');">
-                        <div class="info-container">
+                        <div class="info-container dark-background">
                             <p class="info">53 min</p>
                             <div>
                                 <p class="info society rounded-border">SOCIÉTÉ</p>
@@ -121,113 +63,21 @@
                     </div>
                     <h1>Épisode Pilote : La Télévision</h1>
                 </div>
+            </a>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/rap.jpg');">
-                        <div class="info-container">
-                            <p class="info">49 min</p>
-                            <div>
-                                <p class="info music rounded-border">MUSIQUE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 3 : Le Rap</h1>
-                </div>
+        </div>
+        <footer>
+            <div>
+                <img class="icon" style="vertical-align:middle;" src="images/logos/ctmieuxav-logo-lg-dark.svg"/>
+                <p>un podcast <a href="index.html">Radio Wilson</a> | All rights reserved | 2017</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/rock.jpg');">
-                        <div class="info-container">
-                            <p class="info">61 min</p>
-                            <div>
-                                <p class="info music rounded-border">MUSIQUE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 2 : Le Rock</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/election.jpg');">
-                        <div class="info-container">
-                            <p class="info">42 min</p>
-                            <div>
-                                <p class="info politics rounded-border">POLITIQUE</p>
-                                <p class="info society rounded-border">SOCIÉTÉ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 1 : Les Élections</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/tv.jpg');">
-                        <div class="info-container">
-                            <p class="info">53 min</p>
-                            <div>
-                                <p class="info society rounded-border">SOCIÉTÉ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode Pilote : La Télévision</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/rap.jpg');">
-                        <div class="info-container">
-                            <p class="info">49 min</p>
-                            <div>
-                                <p class="info music rounded-border">MUSIQUE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 3 : Le Rap</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/rock.jpg');">
-                        <div class="info-container">
-                            <p class="info">61 min</p>
-                            <div>
-                                <p class="info music rounded-border">MUSIQUE</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 2 : Le Rock</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/election.jpg');">
-                        <div class="info-container">
-                            <p class="info">42 min</p>
-                            <div>
-                                <p class="info politics rounded-border">POLITIQUE</p>
-                                <p class="info society rounded-border">SOCIÉTÉ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode 1 : Les Élections</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 preview-container"> 
-                <div class="preview">
-                    <div class="thumbnail-container" style="background-image: url('images/thumbnails/tv.jpg');">
-                        <div class="info-container">
-                            <p class="info">53 min</p>
-                            <div>
-                                <p class="info society rounded-border">SOCIÉTÉ</p>
-                            </div>
-                        </div>
-                    </div>
-                    <h1>Épisode Pilote : La Télévision</h1>
-                </div>
+            <div>
+                <a target="_blank" href="https://soundcloud.com/user-556995839"><img class="icon" src="images/icons/soundcloud.svg" /></a>
+                <a href="#"><img class="icon" src="images/icons/rss.svg"/></a>
+                <a target="_blank" href="https://facebook.com/ctmieuxav"><img class="icon" src="images/icons/facebook.svg"/></a>
+                <a target="_blank" href="https://twitter.com/ctmieuxav"><img class="icon" src="images/icons/twitter.svg"/></a>
             </div>
         </div>
     </body>
+    
 </html>

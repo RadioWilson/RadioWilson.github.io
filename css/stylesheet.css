@@ -1,37 +1,9 @@
-.banner {
-    
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, .50);
-    color: white;
-    display: table;
-    height: 50%;
-    max-height: 50%;
-    max-width: 100%;
-    width: 100%;
-}
+/* CSS File for Radio Wilson's web site */
+/* Created by Dimitri Drouet with Bootstrap */
 
-.banner-inner {
-    display: table-cell;
-    height: 100%;
-    vertical-align: middle;
-    width: inherit;
-}
-
-.banner-inner span {
-    color: #67C988;
-}
-
-body {
-    background-color: #EBEBEB;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
-    overflow-x: hidden;
-    width: 100%;
-}
-
-h2 {
-    font-size: 20px;
+@font-face {
+    font-family: 'Summer Hearts';
+    src: url('SummerHearts-Regular.otf');
 }
 
 html {
@@ -39,31 +11,156 @@ html {
     width: 100%;
 }
 
-.info {
-    display: inline-block;
-    color: white;
-    font-size: 12px;
+body {
+    background-color: #EBEBEB;
+    color: #272727;
+    font-family: 'Open Sans';
+    height: inherit;
+    overflow-x: hidden;
+    width: inherit;
+}
+
+h1,
+h2,
+h3 {
+    text-decoration: none;
+    font-size-adjust: auto;
+    font-weight: 500;
+}
+
+.bordered {
+    border: 2px solid #272727;
+    border-radius: 100px;
     padding: 1px 4px 1px 4px;
-    margin-left: 5px;
+}
+
+.bottom-shadow {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    -wbekit-box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.btn-custom {
+    border: 2px solid #272727;
+    border-radius: 100px;
+    color: #272727;
+    display: inline-block;
+    padding: 7px 14px 7px 14px;
+    margin: 20px 0px 30px 0px;
+    text-transform: uppercase;
+    transition: color .2s, background .2s;
+    -webkit-transition: color .2s, background .2s;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    background-color: #272727;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color .25s, background .25s;
+    -webkit-transition: color .25s, background .25s;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cover {
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.cover hr {
+    border: solid 2px;
+    width: 10%;
+}
+
+.cover h1 {
+    font-family: 'Summer Hearts';
+}
+
+.cover img {
+    height: 100px;
+    width: 100px;
+}
+
+.cover-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dark-background {
+    color: #FFFFFF;
+}
+
+.dark-background .btn-custom {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.dark-background .btn-custom:hover,
+.dark-background .btn-custom:focus {
+    background: #FFFFFF;
+    color: #272727;
+}
+
+.dark-background .rounded-border {
+    border: 2px solid #FFFFFF;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-inner{
+    
+}
+
+h2 {
+    font-size: 20px;
 }
 
 .icon {
-    
+    height: 32px;
+    width: auto;
+}
+
+.info {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 5px 10px 5px 10px;
 }
 
 .info-container {
     display: flex;
     justify-content: space-between;
-    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    margin: 0px 5px 0px 5px;
 }
 
-.middle {
-    top: 0%;
-    transform: translateY(0%);
+.logo {
+    max-height: 300px;
+    max-width: 300px;
 }
 
-p {
-    font:12px;
+.logo-container {
+    padding: 5%;
+    text-align: center;
+}
+
+.rounded-border {
+    border: 2px solid #272727;
+    border-radius: 100px;
 }
 
 .preview {
@@ -76,7 +173,7 @@ p {
 
 .preview:hover,
 .preview:focus {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, .75);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
     -webkit-transition: box-shadow .25s; 
     transition: box-shadow .25s;
 }
@@ -86,25 +183,35 @@ p {
     padding: 0px 14px 14px 14px;
 }
 
-.preview img {
-    width: 100%;
-    height: auto;
-}
-
 .preview-container{
     padding: 7px;
 }
 
-.rounded-border {
-    border: solid 2px white;
-    border-radius: 12px;
+.preview-container a {
+    text-decoration: none;
+    text-transform: none;
+    color: #272727;
 }
 
-.station-icon {
-    height: auto;
-    max-height: 80px;
-    max-width: 160px;
-    width: 100%px;
+.podcast-preview {
+    background-color: #FFFFFF;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -wbekit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -o-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+}
+
+hr {
+    border: 1px solid #272727;
+    margin-right: auto;
+    width: 25%;
+}
+
+.vcenter {
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 .thumbnail-container {
@@ -114,24 +221,9 @@ p {
 }
 
 @media (min-width: 768px) {
-    .banner {
-        height: 33%;
-    }
-    
-    .info {
-        font-size: 14px;
-        padding: 2px 5px 2px 5px;
-    }
-    
     h2 {
-        font-size: 22px
+        font-size: 22px;
     }
-    
-    .middle {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }   
     
     .preview h1 {
         font-size: 16px;
@@ -140,11 +232,6 @@ p {
     
     .preview-container{
         padding: 8px;
-    }
-    
-    .rounded-border {
-        border: solid 2px white;
-        border-radius: 14px;
     }
 }
 
@@ -155,11 +242,7 @@ p {
     }
     
     h2 {
-        font-size: 24px
-    }
-    
-    p {
-        font-size: 14px;
+        font-size: 24px;
     }
     
     .preview h1 {
@@ -170,20 +253,16 @@ p {
     .preview-container{
         padding: 9px;
     }
-    
-    .rounded-border {
-        border: solid 2px white;
-        border-radius: 16px;
-    }
 }
 
 @media (min-width: 1200px) {
-     h2 {
-        font-size: 26px
+    .info {
+        font-size: 18px;
+        padding: 4px 7px 4px 7px;
     }
     
-    p {
-        font-size: 16px;
+    h2 {
+        font-size: 26px;
     }
     
     .preview h1 {
@@ -195,11 +274,3 @@ p {
         padding: 10px;
     }
 }
-
-/*
-
-.info {
-    border: solid 2px black;
-    border-radius: 10px;
-    font-size: 14px;
-}*/
