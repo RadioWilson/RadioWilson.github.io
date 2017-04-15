@@ -1,0 +1,167 @@
+/* CSS File for Radio Wilson's web site
+   Version 1.1 (2017-04-15)
+   Created by Dimitri Drouet. All Right Reserved */
+
+html {
+    height: 100%;
+    width:100%;
+}
+
+body {
+    background: #EBEBEB;
+    color: #272727;
+    font-family: 'Open Sans';
+    height: inherit;
+    overflow-x: hidden;
+    width: inherit;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/*Backgrounds******************************************************************/
+.background-dark{
+    background-color: #272727;
+    color: #FFFFFF;
+}
+
+/*Containers*******************************************************************/
+.cover {
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+.cover-inner {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logo-container {
+    padding: 5%;
+    text-align: center;
+}
+
+.description-container {
+    padding: 20px;
+}
+
+.preview {
+    background-color: #FFFFFF;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -wbekit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -o-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+}
+
+.vcenter {
+    display:inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/*Borders and Shadows**********************************************************/
+.bottom-shadow {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+}
+
+/*Titles and Subtitles*********************************************************/
+h1, h2, h3 {
+    font-size-adjust: auto;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*Images***********************************************************************/
+.icon {
+    height: 24px;
+    width: auto;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.preview-logo {
+    max-height: 300px;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+    .icon {
+        height: 36px;
+    }
+    
+    .logo {
+        height: 133px;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+        height: 167px;
+    }
+    
+    .preview-logo {
+        max-height: 248px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        height: 200px;   
+    }
+}
+
+/*Buttons**********************************************************************/
+.btn-custom {
+    border: 2px solid #272727;
+    border-radius: 100px;
+    color: #272727;
+    display: inline-block;
+    padding: 7px 14px 7px 14px;
+    margin: 15px 0px 30px 0px;
+    text-transform: uppercase;
+    transition: color .3s, background .3s;
+    -webkit-transition: color .3s, background .3s;
+}
+
+.btn-custom:hover, .btn-custom:focus {
+    background: #272727;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color .3s, background .3s;
+    -webkit-transition: color .3s, background .3s;
+}
+
+.background-dark .btn-custom {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.background-dark .btn-custom:hover,
+.background-dark .btn-custom:focus {
+    background: #FFFFFF;
+    color: #272727;
+}
+
+/*HR***************************************************************************/
+.cover hr {
+    border: solid 2px;
+    width: 10%;
+}

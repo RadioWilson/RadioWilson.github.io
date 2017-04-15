@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M6.18,15.64A2.18,2.18 0 0,1 8.36,17.82C8.36,19 7.38,20 6.18,20C5,20 4,19 4,17.82A2.18,2.18 0 0,1 6.18,15.64M4,4.44A15.56,15.56 0 0,1 19.56,20H16.73A12.73,12.73 0 0,0 4,7.27V4.44M4,10.1A9.9,9.9 0 0,1 13.9,20H11.07A7.07,7.07 0 0,0 4,12.93V10.1Z" /></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<path d="M2.7,0h18.7C22.8,0,24,1.2,24,2.7v18.7c0,1.5-1.2,2.7-2.7,2.7H2.7C1.2,24,0,22.8,0,21.3V2.7C0,1.2,1.2,0,2.7,0 M6,16
+	c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2s2-0.9,2-2C8,16.9,7.1,16,6,16 M4,9.3V12c4.4,0,8,3.6,8,8h2.7C14.7,14.1,9.9,9.3,4,9.3 M4,4v2.7
+	c7.4,0,13.3,6,13.3,13.3H20C20,11.2,12.8,4,4,4z"/>
+</svg>
