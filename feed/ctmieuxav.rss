@@ -16,7 +16,7 @@
         </description>
         <language>fr</language>
         <copyright>© 2017 Radio Wilson</copyright>
-        <atom:linkhref="https://radiowilson.github.io/feed/ctmieuxav.rss"rel="self"type="application/rss+xml" />
+        <atom:link href="https://radiowilson.github.io/feed/ctmieuxav.rss"rel="self"type="application/rss+xml" />
         <lastBuildDate>Mon, 5 Jun 2017 22:09:00 GMT</lastBuildDate>
         <itunes:author>Radio Wilson</itunes:author>
         <itunes:summary>Le podcast qui confronte la réalité à la nostalgie</itunes:summary>
@@ -25,8 +25,8 @@
             <itunes:email>radiowilson.podcast@gmail.com</itunes:email>
         </itunes:owner>
         <itunes:explicit>Yes</itunes:explicit>
-        <itunes:imagehref="https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg"/>
-        <itunes:categorytext="Society &amp; Culture">
+        <itunes:image href="https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg"/>
+        <itunes:category text="Society &amp; Culture">
         </itunes:categorytext>
         <item>
             <title>Épisode Pilote : Les Élections Présidentielles</title>
@@ -45,7 +45,7 @@
                 Pour tacher d'y repondre nous alons nous intéresser aux
                 élections de la Vème République.
             </itunes:summary>
-            <itunes:imagehref="https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.jpg"/>
+            <itunes:image href="https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.jpg"/>
         </item>
     </channel>
 </rss>
