@@ -17,8 +17,8 @@
       <width>1500</width>
       <height>1500</height>
     </image>
-    <itunes:explicit>yes</itunes:explicit>
-    <itunes:category text="Society &amp; Culture"></itunes:category>
+    <explicit>yes</explicit>
+    <category text="Society &amp; Culture"></category>
     <item>
       <title>Épisode Pilote : Les Élections Présidentielles</title>
       <pubDate>Mon, 5 Jun 2017 13:41:23 +0200</pubDate>
