@@ -1,29 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <generator>RSS Builder by B!Soft</generator>
-    <title>C'était Mieux Avant</title>
-    <link>https://radiowilson.github.io/ctmieuxav.html</link>
-    <description>Le podcast qui confronte la réalité à la nostalgie
-"C'était mieux avant...", "De mon temps...", "Avant c'était pas comme ça, et c'était mieux" autant de formules qu'on entend régulièrement autour de nous, ou qu'il nous arrive parfois de prononcer, quand la nostalgie s'empare de nous. Mais est-ce vraiment le cas, ou est-ce simplement le reflet d'une vision idéalisée du passé ? Chaque épisode de ce podcast est l'occasion de revenir sur un sujet et confronter cette vision passéiste à la réalité.</description>
-    <language>fr</language>
-    <copyright>© 2017 Radio Wilson</copyright>
-    <image>
-      <title>C'était Mieux Avant</title>
-      <link>https://radiowilson.github.io/ctmieuxav.html</link>
-      <url>https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg</url>
-      <width>1500</width>
-      <height>1500</height>
-    </image>
-    <item>
-      <title>Épisode Pilote : Les Élections Présidentielles</title>
-      <pubDate>Mon, 5 Jun 2017 21:08:03 +0200</pubDate>
-      <link>https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</link>
-      <guid isPermaLink="false">https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</guid>
-      <author>ctmieuxav@gmail.com</author>
-      <category>Society &amp; Culture</category>
-      <enclosure url="https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3" length="" type="audio/mpeg" />
-      <description><![CDATA[]]></description>
-    </item>
-  </channel>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"version="2.0"xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>C'était Mieux Avant</title>
+        <link>radiowilson.github.io/ctmieuxav</link>
+        <description>
+            Le podcast qui confronte la réalité à la nostalgie
+            "C'était mieux avant...", "De mon temps...", "Avant c'était pas
+            comme ça, et c'était mieux" autant de formules qu'on entend
+            régulièrement autour de nous, ou qu'il nous arrive parfois de
+            prononcer, quand la nostalgie s'empare de nous. Mais est-ce vraiment
+            le cas, ou est-ce simplement le reflet d'une vision idéalisée du
+            passé ? Chaque épisode de ce podcast est l'occasion de revenir
+            sur un sujet et confronter cette vision passéiste à la réalité.
+        </description>
+        <language>fr</language>
+        <copyright>© 2017 Radio Wilson</copyright>
+        <atom:linkhref="radiowilson.github.io/feed/ctmieuxav.rss"rel="self"type="application/rss+xml" />
+        <lastBuildDate>Mon, 5 Jun 2017 22:09:00 GMT</lastBuildDate>
+        <itunes:author>Radio Wilson</itunes:author>
+        <itunes:summary>Le podcast qui confronte la réalité à la nostalgie</itunes:summary>
+        <itunes:owner>
+            <itunes:name>Radio Wilson</itunes:name>
+            <itunes:email>radiowilson.podcast@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:imagehref="https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg"/>
+        <itunes:categorytext="Society &amp; Culture">
+        </itunes:categorytext>
+        <item>
+            <title>Épisode Pilote : Les Élections Présidentielles</title>
+            <link>https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</link>
+            <pubDate>Mon, 5 Jun 2017 22:09:00 GMT</pubDate>
+            <description>
+                Après cette campagne 2017 pour le moins movementée, on se pose
+                la question : Les Élections Présidentielles c'était mieux avant ?
+                Pour tacher d'y repondre nous alons nous intéresser aux
+                élections de la Vème République.
+            </description>
+            <enclosure url="https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3" length="42542154" type="audio/mpeg"/>
+            <itunes:summary>
+                Après cette campagne 2017 pour le moins movementée, on se pose
+                la question : Les Élections Présidentielles c'était mieux avant ?
+                Pour tacher d'y repondre nous alons nous intéresser aux
+                élections de la Vème République.
+            </itunes:summary>
+            <itunes:imagehref="https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.jpg"/>
+        </item>
+    </channel>
 </rss>
