@@ -9,21 +9,23 @@
     <language>fr</language>
     <managingEditor>ctmieuxav@gmail.com</managingEditor>
     <webMaster>radiowilson.podcast@gmail.com</webMaster>
-    <copyright>All rights reserved</copyright>
+    <copyright>© 2017 Radio Wilson</copyright>
     <image>
       <title>C'était Mieux Avant</title>
       <link>https://radiowilson.github.io/ctmieuxav.html</link>
       <url>https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg</url>
-      <width>500</width>
-      <height>500</height>
+      <width>1500</width>
+      <height>1500</height>
     </image>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="Society &amp; Culture"></itunes:category>
     <item>
-      <title>Épisode Pilote : Les Éléctions Présidentielles</title>
+      <title>Épisode Pilote : Les Élections Présidentielles</title>
       <pubDate>Mon, 5 Jun 2017 13:41:23 +0200</pubDate>
-      <link>radiowilson.github.io/ctmieuxav/E0-Les-Éléctions.mp3</link>
+      <link>radiowilson.github.io/ctmieuxav/E0-Les-elections.mp3</link>
       <author>ctmieuxav@gmail.com</author>
       <enclosure url="radiowilson.github.io/ctmieuxav/E0-les-elections.mp3" length="" type="audio/mpeg" />
-      <description><![CDATA[Après cette campagne 2017 pour le moins mouvementée, on se pose la question : Les Éléctions Présidentielles, C'était Mieux Avant ? ]]></description>
+      <description><![CDATA[Après cette campagne 2017 pour le moins mouvementée, on se pose la question : Les Élections Présidentielles, C'était Mieux Avant ? ]]></description>
     </item>
   </channel>
 </rss>
