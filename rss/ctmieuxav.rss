@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-    <channel>
-        <title>C'était Mieux Avant</title>
-        <atom:link href="http://radiowilson.github.io/rss/ctmieuxav.rss" rel="self" type="application/rss+xml"/>
-        <link>http://radiowilson.github.io/ctmieuxav</link>
-        <description>Le podcast qui confronte la réalité à la nostalgie
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>C'était Mieux Avant</title>
+    <link>https://radiowilson.github.io/ctmieuxav.html</link>
+    <description>Le podcast qui confronte la réalité à la nostalgie
 "C'était mieux avant...", "De mon temps...", "Avant c'était pas comme ça, et c'était mieux" autant de formules qu'on entend régulièrement autour de nous, ou qu'il nous arrive parfois de prononcer, quand la nostalgie s'empare de nous. Mais est-ce vraiment le cas, ou est-ce simplement le reflet d'une vision idéalisée du passé ? Chaque épisode de ce podcast est l'occasion de revenir sur un sujet et confronter cette vision passéiste à la réalité.</description>
-        <lastBuildDate>Mon, 5 Jun 2017 13:41:23 +0200</lastBuildDate>
-        <language>fr</language>
-        <copyright>© 2017 C'était Mieux Avant</copyright>
-        <itunes:subtitle>Le podcast qui confronte la réalité à la nostalgie</itunes:subtitle>
-        <itunes:author>C'était Mieux Avant</itunes:author>
-        <itunes:summary>"C'était mieux avant...", "De mon temps...", "Avant c'était pas comme ça, et c'était mieux" autant de formules qu'on entend régulièrement autour de nous, ou qu'il nous arrive parfois de prononcer, quand la nostalgie s'empare de nous. Mais est-ce vraiment le cas, ou est-ce simplement le reflet d'une vision idéalisée du passé ? Chaque épisode de ce podcast est l'occasion de revenir sur un sujet et confronter cette vision passéiste à la réalité.</itunes:summary>
-        <itunes:owner>
-			<itunes:name>Radio Wilson</itunes:name>
-			<itunes:email>radiowilson.podcast@gmail.com</itunes:email>
-		</itunes:owner>
-        <itunes:image href="http://www.radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg"></itunes:image>
-        <image>
-            <url>http://www.radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg</url>
-            <title>C'était Mieux Avant</title>
-            <link>http://radiowilson.github.com/ctmieuxav</link>
-        </image>
-		<itunes:explicit>yes</itunes:explicit>
-        <itunes:category text="Society &amp; Culture">
-		</itunes:category>
-        <item>
-            <title>Épisode Pilote : Les Élections Présidentielles</title>
-            <link>http://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</link>
-            <pubDate>Mon, 5 Jun 2017 13:41:23 +0200</pubDate>
-			<description><![CDATA[Après cette campagne 2017 pour le moins mouvementée, on se pose la question : Les Élections Présidentielles, C'était Mieux Avant ? ]]></description>
-            <itunes:summary><![CDATA[Après cette campagne 2017 pour le moins mouvementée, on se pose la question : Les Élections Présidentielles, C'était Mieux Avant ? ]]></itunes:summary>
-        </item>
-    </channel>
+    <language>fr</language>
+    <managingEditor>ctmieuxav@gmail.com</managingEditor>
+    <webMaster>radiowilson.podcast@gmail.com</webMaster>
+    <copyright>All rights reserved</copyright>
+    <image>
+      <title>C'était Mieux Avant</title>
+      <link>https://radiowilson.github.io/ctmieuxav.html</link>
+      <url>https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg</url>
+      <width>500</width>
+      <height>500</height>
+    </image>
+    <item>
+      <title>Épisode Pilote : Les Éléctions Présidentielles</title>
+      <pubDate>Mon, 5 Jun 2017 13:41:23 +0200</pubDate>
+      <link>radiowilson.github.io/ctmieuxav/E0-Les-Éléctions.mp3</link>
+      <author>ctmieuxav@gmail.com</author>
+      <enclosure url="radiowilson.github.io/ctmieuxav/E0-les-elections.mp3" length="" type="audio/mpeg" />
+      <description><![CDATA[Après cette campagne 2017 pour le moins mouvementée, on se pose la question : Les Éléctions Présidentielles, C'était Mieux Avant ? ]]></description>
+    </item>
+  </channel>
 </rss>
