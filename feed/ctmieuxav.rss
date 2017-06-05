@@ -17,7 +17,7 @@
         <language>fr</language>
         <copyright>© 2017 Radio Wilson</copyright>
         <atom:link href="https://radiowilson.github.io/feed/ctmieuxav.rss" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Mon, 5 Jun 2017 22:09:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 5 Jun 2017 20:09:00 GMT</lastBuildDate>
         <itunes:author>Radio Wilson</itunes:author>
         <itunes:summary>Le podcast qui confronte la réalité à la nostalgie</itunes:summary>
         <itunes:owner>
@@ -27,11 +27,11 @@
         <itunes:explicit>Yes</itunes:explicit>
         <itunes:image href="https://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg"/>
         <itunes:category text="Society &amp; Culture">
-        </itunes:categorytext>
+        </itunes:category>
         <item>
             <title>Épisode Pilote : Les Élections Présidentielles</title>
             <link>https://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</link>
-            <pubDate>Mon, 5 Jun 2017 22:09:00 GMT</pubDate>
+            <pubDate>Mon, 5 Jun 2017 20:09:00 GMT</pubDate>
             <description>
                 Après cette campagne 2017 pour le moins movementée, on se pose
                 la question : Les Élections Présidentielles c'était mieux avant ?
