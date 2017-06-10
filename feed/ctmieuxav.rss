@@ -25,28 +25,51 @@
             <itunes:email>radiowilson.podcast@gmail.com</itunes:email>
         </itunes:owner>
         <itunes:explicit>Yes</itunes:explicit>
-        <itunes:image href="http://radiowilson.github.io/images/logos/ctmieuxav-logo-cover.jpg"/>
+        <itunes:image href="http://radiowilson.github.io/images/logos/ctmieuxav-logo-rss-profile-picture.jpg"/>
         <itunes:category text="Society &amp; Culture">
         </itunes:category>
-        <item>
-            <title>Épisode Pilote : Les Élections Présidentielles</title>
-            <guid isPermaLink="false">http://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</guid>
-            <link>http://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3</link>
+        <!--<item>
+            <title>Épisode 1 : Le Féminisme</title>
+            <guid isPermaLink="false">http://radiowilson.github.io/episodes/ctmieuxav/E1-le-feminisme.mp3</guid>
+            <link>http://radiowilson.github.io/episodes/ctmieuxav/E1-le-feminisme.mp3</link>
             <pubDate>Mon, 5 Jun 2017 20:09:00 GMT</pubDate>
             <description>
-                Après cette campagne 2017 pour le moins movementée, on se pose
-                la question : Les Élections Présidentielles c'était mieux avant ?
-                Pour tacher d'y repondre nous alons nous intéresser aux
-                élections de la Vème République.
+                Alors que l'égalité est une des 3 valeurs prônées par la devise
+                de notre pays, des inégalités entre les hommes et les femmes
+                persistes. Le combat féministe est loin d'être fini, mais est-il
+                aussi vigoureux qu'il l'a été par le passé ? Aujourd'hui on se
+                demande : le féminisme c'était mieux avant ?
             </description>
             <enclosure url="http://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3" length="42542154" type="audio/mpeg"/>
             <itunes:summary>
-                Après cette campagne 2017 pour le moins movementée, on se pose
-                la question : Les Élections Présidentielles c'était mieux avant ?
-                Pour tacher d'y repondre nous alons nous intéresser aux
+                Alors que l'égalité est une des 3 valeurs prônées par la devise
+                de notre pays, des inégalités entre les hommes et les femmes
+                persistes. Le combat féministe est loin d'être fini, mais est-il
+                aussi vigoureux qu'il l'a été par le passé ? Aujourd'hui on se
+                demande : le féminisme c'était mieux avant ?
+            </itunes:summary>
+            <itunes:image href="http://radiowilson.github.io/episodes/ctmieuxav/E1-le-feminisme.jpg"/>
+        </item>-->
+        <item>
+            <title>Épisode Pilote : Les Élections Présidentielles</title>
+            <guid isPermaLink="false">http://radiowilson.github.io/episodes/ctmieuxav/E000-les-elections.mp3</guid>
+            <link>http://radiowilson.github.io/episodes/ctmieuxav/E000-les-elections.mp3</link>
+            <pubDate>Mon, 5 Jun 2017 20:09:00 GMT</pubDate>
+            <description>
+                Après cette campagne 2017 pour le moins mouvementée, on se pose
+                la question : Les Élections Présidentielles, c'était mieux avant
+                ? Pour tacher d'y répondre nous allons nous intéresser aux
+                élections de la Vème République.
+            </description>
+            <enclosure url="http://radiowilson.github.io/episodes/ctmieuxav/E000-les-elections.mp3" length="42542154" type="audio/mpeg"/>
+            <itunes:summary>
+                Après cette campagne 2017 pour le moins mouvementée, on se pose
+                la question : Les Élections Présidentielles, c'était mieux avant
+                ? Pour tacher d'y répondre nous allons nous intéresser aux
                 élections de la Vème République.
             </itunes:summary>
-            <itunes:image href="http://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.jpg"/>
+            <itunes:image href="http://radiowilson.github.io/episodes/ctmieuxav/E000-les-elections.jpg"/>
         </item>
+        
     </channel>
 </rss>
