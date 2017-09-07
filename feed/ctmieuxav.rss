@@ -17,7 +17,7 @@
         <language>fr</language>
         <copyright>© 2017 Radio Wilson</copyright>
         <atom:link href="http://radiowilson.github.io/feed/ctmieuxav.rss" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Mon, 5 Jun 2017 20:09:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 8 Sep 2017 08:09:00 GMT</lastBuildDate>
         <itunes:author>Radio Wilson</itunes:author>
         <itunes:summary>Le podcast qui confronte la réalité à la nostalgie</itunes:summary>
         <itunes:owner>
@@ -28,28 +28,28 @@
         <itunes:image href="http://radiowilson.github.io/images/logos/ctmieuxav-logo-rss-profile-picture.jpg"/>
         <itunes:category text="Society &amp; Culture">
         </itunes:category>
-        <!--<item>
+        <item>
             <title>Épisode 1 : Le Féminisme</title>
-            <guid isPermaLink="false">http://radiowilson.github.io/episodes/ctmieuxav/E1-le-feminisme.mp3</guid>
-            <link>http://radiowilson.github.io/episodes/ctmieuxav/E1-le-feminisme.mp3</link>
-            <pubDate>Mon, 5 Jun 2017 20:09:00 GMT</pubDate>
+            <guid isPermaLink="false">http://radiowilson.github.io/episodes/ctmieuxav/E001-le-feminisme.mp3</guid>
+            <link>http://radiowilson.github.io/episodes/ctmieuxav/E001-le-feminisme.mp3</link>
+            <pubDate>Fri, 8 Sep 2017 08:09:00 GMT</pubDate>
             <description>
                 Alors que l'égalité est une des 3 valeurs prônées par la devise
                 de notre pays, des inégalités entre les hommes et les femmes
-                persistes. Le combat féministe est loin d'être fini, mais est-il
+                persistent. Le combat féministe est loin d'être fini, mais est-il
                 aussi vigoureux qu'il l'a été par le passé ? Aujourd'hui on se
-                demande : le féminisme c'était mieux avant ?
+                pose la question : le féminisme c'était mieux avant ?
             </description>
-            <enclosure url="http://radiowilson.github.io/episodes/ctmieuxav/E0-les-elections.mp3" length="42542154" type="audio/mpeg"/>
+            <enclosure url="http://radiowilson.github.io/episodes/ctmieuxav/E001-le-feminisme.mp3" length="37753770" type="audio/mpeg"/>
             <itunes:summary>
                 Alors que l'égalité est une des 3 valeurs prônées par la devise
                 de notre pays, des inégalités entre les hommes et les femmes
-                persistes. Le combat féministe est loin d'être fini, mais est-il
+                persistent. Le combat féministe est loin d'être fini, mais est-il
                 aussi vigoureux qu'il l'a été par le passé ? Aujourd'hui on se
-                demande : le féminisme c'était mieux avant ?
+                pose la question : le féminisme c'était mieux avant ?
             </itunes:summary>
-            <itunes:image href="http://radiowilson.github.io/episodes/ctmieuxav/E1-le-feminisme.jpg"/>
-        </item>-->
+            <itunes:image href="http://radiowilson.github.io/episodes/ctmieuxav/E001-le-feminisme.jpg"/>
+        </item>
         <item>
             <title>Épisode Pilote : Les Élections Présidentielles</title>
             <guid isPermaLink="false">http://radiowilson.github.io/episodes/ctmieuxav/E000-les-elections.mp3</guid>
