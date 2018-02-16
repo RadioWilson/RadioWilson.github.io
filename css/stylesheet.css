@@ -34,8 +34,13 @@ footer{
     border-color: #FFFFFF;
 }
 
-.color-medium-grey {
-    color: #646464;
+.color-light-grey {
+    color: rgba(255, 255, 255, .5);
+    border-color: #646464;
+}
+
+.color-dark-grey {
+color: rgba(0, 0, 0, .5);
     border-color: #646464;
 }
 
@@ -54,6 +59,7 @@ footer{
     top: 5%; 
     left: 6%; 
     width: 100%;
+    font-size: 18px; 
 }
 
 .img-container h1 {
@@ -61,6 +67,7 @@ footer{
     bottom: 5%; 
     left: 6%; 
     width: 100%;
+    font-size: 24px;
 }
 
 .info-container {
@@ -68,6 +75,7 @@ footer{
     justify-content: flex-start;
     vertical-align: middle;
     margin: 5px 1% 0px 1%;
+    font-size: 14px;
 }
 
 .logo-container {
@@ -140,15 +148,6 @@ footer{
     transition: transform .3s;
 }
 
-.item-shadow img {
-    -webkit-filter:brightness(75%);
-    -moz-filter:brightness(75%);
-    filter: url(#brightness); /* required for FF */
-    filter:brightness(75%);   
-    -webkit-transition: filter .3s; 
-    transition: filter .3s; 
-}
-
 .item-shadow:hover,
 .item-shadow:focus {
     transform: scale(1.02);
@@ -162,15 +161,6 @@ footer{
     transition: transform .3s;
 }
 
-.item-shadow:hover img,
-.item-shadow:focus img {
-    -webkit-filter:brightness(100%);
-    -moz-filter:brightness(100%);
-    filter: url(#brightness); /* required for FF */
-    filter:brightness(100%);   
-    -webkit-transition: filter .3s; 
-    transition: filter .3s; 
-}
 
 /*Titles and Subtitles*********************************************************/
 h1, h2, h3 {
@@ -197,6 +187,18 @@ h1, h2, h3 {
     .preview-container{
         padding: 8px;
     }
+    
+    .img-container h2 {
+        font-size: 20px; 
+    }
+
+    .img-container h1 {
+        font-size: 26px;
+    }
+
+    .info-container {
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -204,11 +206,31 @@ h1, h2, h3 {
         font-size: 18px;
         padding: 0px 18px 18px 18px;
     }*/
+    
+    .img-container h2 {
+        font-size: 22px; 
+    }
+
+    .img-container h1 {
+        font-size: 28px;
+    }
+
+    .info-container {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 1200px) {
     h2 {
         font-size: 26px;
+    }
+    
+    .img-container h2 {
+        font-size: 24px; 
+    }
+
+    .img-container h1 {
+        font-size: 30px;
     }
 }
 
