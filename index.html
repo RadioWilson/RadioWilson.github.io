@@ -15,7 +15,7 @@
         
         <!--CSS---------------------------------------------------------------->
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/radio-wilson-stylesheet.css" rel="stylesheet">
+        <link href="css/stylesheet.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,14 +24,17 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
     </head>
-    <body>
+    <body class="background-light-grey">
         <!--COVER-------------------------------------------------------------->
         <div class="cover bottom-shadow background-dark" style="background-image: url('images/backgrounds/wilson-fountain.jpg');">
             <div class="cover-inner">
                 <img class="logo" src="images/logos/radio-wilson-logo.svg" alt="Logo de Radio Wilson.">
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-                        <h1>Radio Wilson</h1>
+                        <div class="title">
+                            <h1>Radio Wilson</h1>
+                            <h1><span>Podcasts</span></h1>
+                        </div>
                         <hr/>
                         <p>
                             C'est dans la Ville Rose que nous nous sommes
@@ -48,32 +51,32 @@
         </div>
         
         <!--PREVIEW CONTAINER-------------------------------------------------->
-        <div id="preview-container">
-            <div class="row preview" id="ctmieuxav">
+        <div id="preview-container" style="border: 2px solid rgba(0,0,0,0);">
+            <div id="ctmieuxav" class="row background-white border-radius-8 margin-20 material-shadow">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 logo-container vcenter">
-                    <img class="preview-logo" src="images/logos/ctmieuxav-logo-dark.svg" alt="Logo du podcast C'était Mieux Avant"/>
+                    <img class="logo" src="images/logos/ctmieuxav-logo-dark.svg" alt="Logo du podcast C'était Mieux Avant"/>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0 description-container vcenter">
                     <h2>Le podcast qui confronte la réalité à la nostalgie</h2>
                     <p>FORMAT : 35 - 50min • SAISONS : 1 • ÉPISODES : 3 • ANIMATEURS : Quentin, Laure, Dimitri.</p>
                     <hr align="left"/>
                     <p>
-                        "C'était mieux avant...", "De mon temps...", "Avant
-                        c'était pas comme ça, et c'était mieux" autant de
-                        formules qu'on entend régulièrement autour de nous, ou
-                        qu'il nous arrive parfois de prononcer, quand la
-                        nostalgie s'empare de nous. Mais est-ce vraiment le cas,
-                        ou est-ce simplement le reflet d'une vision idéalisée du
-                        passé ? Chaque épisode de ce podcast est l'occasion de
-                        revenir sur un sujet et confronter cette vision passéiste
-                        à la réalité.
+                    "C'était mieux avant...", "De mon temps...", "Avant
+                    c'était pas comme ça, et c'était mieux" autant de
+                    formules qu'on entend régulièrement autour de nous, ou
+                    qu'il nous arrive parfois de prononcer, quand la
+                    nostalgie s'empare de nous. Mais est-ce vraiment le cas,
+                    ou est-ce simplement le reflet d'une vision idéalisée du
+                    passé ? Chaque épisode de ce podcast est l'occasion de
+                    revenir sur un sujet et confronter cette vision passéiste
+                    à la réalité.
                     </p>
                     <a class="btn-custom" href="ctmieuxav.html">Écouter ce podcast</a>
                 </div>
             </div> <!--preview-->
-            <div class="row preview" id="phenomena">
+            <div id="phenomena" class="row background-white border-radius-8 margin-20 material-shadow">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 logo-container vcenter">
-                    <img class="preview-logo" src="images/logos/phenomena-logo-dark.svg" alt="Logo du podcast Phenomema"/>
+                    <img class="logo" src="images/logos/phenomena-logo-dark.svg" alt="Logo du podcast Phenomema"/>
                 </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0 description-container vcenter">
                     <h2>Le podcast qui traite de phénomènes en tout genre</h2>
@@ -83,25 +86,6 @@
                         Théories du complot, légendes urbaines, parapsychologie, phénomènes étranges, ésotérisme, occulte ou bizarreries. Ce podcast touche à toutes les étrangetés de notre monde qui ont fasciné les hommes de tout temps. Véritables mystères ? déformations de la réalité ? ou pure affabulations ? Chaque épisode est l'occasion de confronter ces étrangetés à notre esprit critique.   
                     </p>
                     <a class="btn-custom" href="phenomena.html">Écouter ce podcast</a>
-                </div>
-            </div><!--preview-->
-            <!--<div class="row preview" id="phenomena">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 logo-container vcenter">
-                    <img class="preview-logo" src="images/logos/anciennes-nouvelles-logo-dark.svg" alt="Logo du podcast Anciennes Nouvelles"/>
-                </div>
-                <div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0 description-container vcenter">
-                    <h2>Le podcast qui vous raconte des histoires</h2>
-                    <p>FORMAT : 20 - 40min • SAISONS : 1 • ÉPISODES : 1 • ANIMATEURS : Dimitri.</p>
-                    <hr align="left"/>
-                    <p>
-                        Il n'y a pas si longtemps, vous avez été un enfant. Et,
-                        comme beaucoup d'enfants vous aimiez peut-être qu'on
-                        vous raconte des histoires. Qui a dit, qu'en grandissant
-                        l'on devait arrêter de s'en raconter ? Asseillez vous et
-                        détendez vous, en vous plongeant dans l'ambiance d'une
-                        ancienne nouvelle.
-                    </p>
-                    <a class="btn-custom" href="anciennes-nouvelles.html">Écouter ce podcast</a>
                 </div>
             </div><!--preview-->
         </div><!--preview-container-->
