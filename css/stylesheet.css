@@ -1,8 +1,13 @@
 /* CSS File for Radio Wilson's web site */
 /* Created by Dimitri Drouet. All Right Reserved */
 @font-face {
-    font-family: Atami;
-    src: url('fonts/Atami-Regular.otf');
+    font-family: 'Atami';
+	src: url('fonts/Atami-Regular.otf'); 
+	src: 
+    local('Atami Regular'),
+    local('Atami-Regular'),
+    url('fonts/lovely_font.otf') 
+    format('opentype');
 }
 
 html {
